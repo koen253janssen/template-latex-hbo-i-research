@@ -1,11 +1,11 @@
 #  Author:
 #       Koen Janssen
 #  
-#	Copyright:
-#		Copyright (c) 2021 Koen Janssen
+#  Copyright:
+#	Copyright (c) 2021 Koen Janssen
 # 
-#	License:
-#		GNU General Public License (see http://www.gnu.org/licenses/gpl-3.0.txt)
+#. License:
+#	GNU General Public License (see http://www.gnu.org/licenses/gpl-3.0.txt)
 
 DOCNAME=apa7
 
