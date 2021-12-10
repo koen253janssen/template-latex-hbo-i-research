@@ -1,1 +1,1 @@
-# latex-hbo-i-research
+# latex-template-hbo-i-research
