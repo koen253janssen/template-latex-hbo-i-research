@@ -1,0 +1,100 @@
+% Author:
+%      Koen Janssen
+% 
+% Copyright:
+% 		Copyright (c) 2021 Koen Janssen
+% 
+% License:
+% 		GNU General Public License (see http://www.gnu.org/licenses/gpl-3.0.txt)
+
+\documentclass[man,floatsintext]{apa7}
+
+\usepackage{lipsum}
+\usepackage{multirow}
+\usepackage[american]{babel}
+\usepackage{vhistory}
+\usepackage{glossaries}
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{mybib.bib}
+
+\title{}
+\shorttitle{}
+
+\author{Firstname Lastname (Studentnr)}
+\authorsaffiliations{Fontys University of Applied Science}
+
+\date{\today}
+
+\nocite{DOT-framework}
+
+\leftheader{}
+
+\keywords{}
+
+\setcounter{secnumdepth}{3}
+
+\begin{document}
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage 
+
+\begin{versionhistory}
+	\vhEntry{1.0}{12.10.21}{initials}{initial setup}
+\end{versionhistory}
+
+\newpage
+\section{Introduction}
+
+\section{Research questions}
+\subsection{Main research question}
+
+\subsection{Sub-research questions}
+\begin{enumerate}{}{}
+	\item Question 1?
+	\item Question 2?
+	\item Question 3?
+\end{enumerate}
+
+\newpage
+
+\section{Research methods}
+\subsection{Research methods sub-question 1}
+
+\subsection{Research methods sub-question 2}
+
+\subsection{Research methods sub-question 3}
+
+\newpage
+
+\section{Findings}
+
+\subsection{Findings sub-question 1}
+
+
+\newpage
+
+\subsection{Findings sub-question 2}
+
+\newpage
+
+\subsection{Findings sub-question 3}
+
+\newpage
+
+\pagebreak
+\section{Conclusion}
+
+\clearpage
+
+
+\newpage
+
+\printbibliography
+
+\end{document}
